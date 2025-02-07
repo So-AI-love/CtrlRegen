@@ -1,4 +1,4 @@
-# Image Watermarks Are Removable using Controllable Regeneration from Clean Noise
+# Image Watermarks are Removable using Controllable Regeneration from Clean Noise
 
 Official implementation of an invisible image watermark removing method presented in the paper:
 
