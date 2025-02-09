@@ -19,7 +19,11 @@ git clone https://github.com/yepengliu/CtrlRegen.git
 cd CtrlRegen
 
 # install the required environment
+pip install -r requirements.txt
 
+# create folders for checkpoints
+mkdir -p semanticnet_ckp/model
+mkdir -p spatialnet_ckp
 
-
+# download the Semantic Control checkpoint and Spatial Control checkpoint to the corresponding path
 ```
