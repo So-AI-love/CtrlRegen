@@ -15,6 +15,11 @@ Image watermark techniques provide an effective way to assert ownership, deter m
 ### Installation
 ```
 # download the code
+git clone https://github.com/yepengliu/CtrlRegen.git
+cd CtrlRegen
+
+# install the required environment
+
 
 
 ```
