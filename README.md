@@ -12,7 +12,7 @@ Image watermark techniques provide an effective way to assert ownership, deter m
 ![overview](https://github.com/user-attachments/assets/0776782c-e5d7-4fea-9600-c3ec6f58c812)
 
 
-### Installation
+## Installation
 ```
 # download the code
 git clone https://github.com/yepengliu/CtrlRegen.git
@@ -21,5 +21,8 @@ cd CtrlRegen
 # install the required environment
 pip install -r requirements.txt
 ```
+
+## How to use
+[**CtrlRegen_plus_demo**](ctrlregen_plus_demo.ipynb):
 
 Note: I am still working on it.
