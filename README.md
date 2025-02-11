@@ -23,6 +23,6 @@ pip install -r requirements.txt
 ```
 
 ## How to use
-Please see [**CtrlRegen_plus_demo**](ctrlregen_plus_demo.ipynb): Adjust the watermark removal strength by changing the step parameter between 0 and 1.
+Please see [**CtrlRegen_Plus_Demo**](ctrlregen_plus_demo.ipynb): Adjust the watermark removal strength by changing the step parameter between 0 and 1.
 
 Note: I am still working on it.
