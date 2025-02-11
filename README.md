@@ -27,4 +27,21 @@ Download the Semantic Control Adapter and Spatial Control Network checkpoints un
 
 Please see [**CtrlRegen_Plus_Demo**](ctrlregen_plus_demo.ipynb): Adjust the watermark removal strength by changing the step parameter between 0 and 1.
 
+Below are some examples. The left one represents the original image, while the right one shows the regenerated image using our method (step = 0.5).
+
+<p><img src="https://github.com/user-attachments/assets/7a112970-d60d-4760-80d9-a4f42f905526" width="300"></p>
+
+<p><img src="https://github.com/user-attachments/assets/1dcbbdc5-d2f4-4de6-b064-b5ffc1a45ccd" width="300"></p>
+
+<p><img src="https://github.com/user-attachments/assets/768a0fcb-ba72-4242-bf0e-579c11b3558a" width="300"></p>
+
+<p><img src="https://github.com/user-attachments/assets/e83a07da-0a74-40e4-aa43-d256f7fdb3ad" width="300"></p>
+
+<p><img src="https://github.com/user-attachments/assets/93295f22-e264-48ce-afc7-35c59b3256e7" width="300"></p>
+
+## How to train
+
+
+
+
 Note: I am still working on it.
