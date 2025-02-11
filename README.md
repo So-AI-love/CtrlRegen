@@ -23,6 +23,8 @@ pip install -r requirements.txt
 ```
 
 ## How to use
+Download the Semantic Control Adapter and Spatial Control Network checkpoints under `semanticnet_ckp/models/` and `spatialnet_ckp/spatial_control_ckp_14000/`.
+
 Please see [**CtrlRegen_Plus_Demo**](ctrlregen_plus_demo.ipynb): Adjust the watermark removal strength by changing the step parameter between 0 and 1.
 
 Note: I am still working on it.
