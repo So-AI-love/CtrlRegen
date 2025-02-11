@@ -41,7 +41,23 @@ Below are some examples. The left one represents the original image, while the r
 
 ## How to train
 
+Note: I am still working on this part.
 
+## Citation
+If you find this repository useful for your research or applications, please cite our paper:
+```
+@article{liu2024ctrlregen,
+  title={Image watermarks are removable using controllable regeneration from clean noise},
+  author={Liu, Yepeng and Song, Yiren and Ci, Hai and Zhang, Yu and Wang, Haofan and Shou, Mike Zheng and Bu, Yuheng},
+  journal={arXiv preprint arXiv:2410.05470},
+  year={2024}
+}
+```
 
+## Acknowledgement
+We thank the authors of the following research works and open-source projects:
 
-Note: I am still working on it.
+["IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models"](https://github.com/tencent-ailab/IP-Adapter)
+
+["Adding Conditional Control to Text-to-Image Diffusion Models"](https://github.com/lllyasviel/ControlNet?tab=readme-ov-file)
+
