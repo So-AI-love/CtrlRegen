@@ -43,6 +43,9 @@ Below are some examples. The left one represents the original image, while the r
 
 Note: I am still working on this part.
 
+## Disclaimer
+This project aims to enhance the robustness of image watermarks. Users are free to leverage this tool to strengthen their watermarking algorithms; however, they must adhere to local regulations and use it responsibly. The developers disclaim any liability for potential misuse by users.
+
 ## Citation
 If you find this repository useful for your research or applications, please cite our paper:
 ```
