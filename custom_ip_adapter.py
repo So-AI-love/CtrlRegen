@@ -176,11 +176,6 @@ class CustomIPAdapterMixin():
                         else:
                             image_encoder_subfolder = Path(image_encoder_folder).as_posix()
 
-                        # image_encoder = CLIPVisionModelWithProjection.from_pretrained(
-                        #     pretrained_model_name_or_path_or_dict,
-                        #     subfolder=image_encoder_subfolder,
-                        #     low_cpu_mem_usage=low_cpu_mem_usage,
-                        # ).to(self.device, dtype=self.dtype)
                         image_encoder = AutoModel.from_pretrained("facebook/dinov2-giant").to(self.device, dtype=torch.float16)
                         self.register_modules(image_encoder=image_encoder)
                     else:
@@ -195,7 +190,6 @@ class CustomIPAdapterMixin():
 
             # create feature extractor if it has not been registered to the pipeline yet
             if hasattr(self, "feature_extractor") and getattr(self, "feature_extractor", None) is None:
-                # feature_extractor = CLIPImageProcessor()
                 feature_extractor = AutoImageProcessor.from_pretrained("facebook/dinov2-giant")
                 self.register_modules(feature_extractor=feature_extractor)
 
